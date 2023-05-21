@@ -1,0 +1,68 @@
+{
+    "Player1_point": 30,
+    "Player2_bestCard": [
+        "SPADE",
+        "EIGHT"
+    ],
+    "winner": "Arnab",
+    "Player1_bestCard": [
+        "HEART",
+        "NINE"
+    ],
+    "Arnab": [
+        [
+            "HEART",
+            "NINE"
+        ],
+        [
+            "SPADE",
+            "THREE"
+        ],
+        [
+            "CLUB",
+            "EIGHT"
+        ]
+    ],
+    "Player2_point": 27,
+    "mappedValues": {
+        "24": [
+            "CLUB",
+            "EIGHT"
+        ],
+        "27": [
+            "SPADE",
+            "EIGHT"
+        ],
+        "30": [
+            "HEART",
+            "NINE"
+        ],
+        "6": [
+            "HEART",
+            "THREE"
+        ],
+        "18": [
+            "HEART",
+            "SIX"
+        ],
+        "7": [
+            "SPADE",
+            "THREE"
+        ]
+    },
+    "Persistent": [
+        [
+            "HEART",
+            "SIX"
+        ],
+        [
+            "HEART",
+            "THREE"
+        ],
+        [
+            "SPADE",
+            "EIGHT"
+        ]
+    ],
+    "winner_point": 30
+}

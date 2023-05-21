@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="both_p1p2">
+        <div id="p1">
+            <h2>Player 1</h2>
+            <span id="player_name">Name : Arnab</span>
+            <br><br>
+
+            <div id="player1_cards">
+
+                <div class="image-container">
+                    <img src="images/BACK/BACK.png" alt="card1" id="c11" class="front-image" onclick="flip1()">
+                    <!-- <img src="images\CLUB\KING.png" alt="queen" class="back-image" onclick="flip1()"> -->
+                    <img src="blank.png" alt="queen" id="c111" class="back-image" onclick="flip1()">
+                </div>
+
+                <div class="image-container1">
+                    <img src="images/BACK/BACK.png" alt="card1" id="c12" class="front-image" onclick="flip2()">
+                    <!-- <img src="images\CLUB\KING.png" alt="queen" class="back-image" onclick="flip2()">-->
+                     <img src="blank.png" alt="queen" id="c112" class="back-image" onclick="flip2()">
+                </div>
+
+                <div class="image-container2">
+                    <img src="images/BACK/BACK.png" alt="card1" id="c13" class="front-image" onclick="flip3()">
+                    <!-- <img src="images\CLUB\KING.png" alt="queen" class="back-image" onclick="flip3()"> -->
+                    <img src="blank.png" alt="queen" id="c113" class="back-image" onclick="flip3()">
+                </div>
+            </div>
+            <br><br>
+
+            <div>
+                <button id="show_highest1" onclick="showHighestCard1()">Show Highest Card</button>
+            </div>
+            <br>
+            <div id="play1" class="row5">
+                <div id="player1_heighest">Heighest Card</div>
+                <div id="player1_points">Points earned</div>
+            </div>
+        </div>
+
+
+
+
+        <div id="p2">
+            <h2>Player 2</h2>
+            <span id="player_name">Name : Persistent</span>
+            <br><br>
+            <div id="player2_cards">
+                <div class="image-container3">
+                    <img src="images/BACK/BACK.png" alt="card1" id="c21" class="front-image" onclick="flip4()">
+                    <!-- <img src="images\CLUB\KING.png" alt="queen" class="back-image" onclick="flip4()"> -->
+                    <img src="blank.png" alt="queen" id="c121" class="back-image" onclick="flip4()">
+                </div>
+                <div class="image-container4">
+                    <img src="images/BACK/BACK.png" alt="card1" id="c22" class="front-image" onclick="flip5()">
+                    <!-- <img src="images\CLUB\KING.png" alt="queen" class="back-image" onclick="flip5()"> -->
+                    <img src="blank.png" alt="queen" id="c122" class="back-image" onclick="flip5()">
+                </div>
+                <div class="image-container5">
+                    <img src="images/BACK/BACK.png" alt="card1" id="c23" class="front-image" onclick="flip6()">
+                    <!-- <img src="images\CLUB\KING.png" alt="queen" class="back-image" onclick="flip6()"> -->
+                    <img src="blank.png" alt="queen" id="c123" class="back-image" onclick="flip6()">
+                </div>
+            </div>
+            <br><br>
+            <div>
+                <button id="show_highest2" onclick="showHighestCard2()">Show Highest Card</button>
+            </div>
+            <br>
+            <div id="play2" class="row5">
+                <div id="player2_heighest">Heighest Card</div>
+                <div id="player2_points">Points earned</div>
+            </div>
+        </div>
+        
+    </div>
+    <br><br>
+    <!-- <div id="res">Let's See Who's Gonna Win</div> -->
+    <button id="decide_winner" onclick="showWinner()">Decide Winner</button>
+    <script src="index.js"/>
+</body>
+
+</html>

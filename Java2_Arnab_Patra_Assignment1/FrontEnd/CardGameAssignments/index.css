@@ -1,0 +1,135 @@
+.image-container,
+.image-container1,
+.image-container2,
+.image-container3,
+.image-container4,
+.image-container5 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.front-image,
+.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease;
+    /* padding: 50px; */
+}
+
+/* .row5 { */
+    /* flex: 33.33%; */
+    /* padding: 5px; */
+/* } */
+/*  */
+.back-image {
+    transform: rotateY(180deg);
+}
+
+.image-container.clicked .front-image,
+.image-container1.clicked .front-image,
+.image-container2.clicked .front-image,
+.image-container3.clicked .front-image,
+.image-container4.clicked .front-image,
+.image-container5.clicked .front-image {
+    transform: rotateY(180deg);
+}
+
+.image-container.clicked .back-image,
+.image-container1.clicked .back-image,
+.image-container2.clicked .back-image,
+.image-container3.clicked .back-image,
+.image-container4.clicked .back-image,
+.image-container5.clicked .back-image {
+    transform: rotateY(0deg);
+}
+
+
+
+
+
+
+
+
+/* #full_frame { */
+    /* display: block; */
+    /* margin-left: 10px; */
+    /* margin-right: auto; */
+    /* width: 80%; */
+    /* height: 10px; */
+/* } */
+/*  */
+/* #full_frame2 { */
+    /* display: block; */
+    /* margin-left: 700px; */
+    /* margin-right: auto; */
+    /* width: 80%; */
+    /* height: 10px; */
+/* } */
+
+#p1,
+#p2 {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+#show_highest1,#show_highest2 {
+    margin: auto;
+    width: 50%;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#player1_cards,#player2_cards {
+    display: flex;
+}
+
+#player1_heighest,
+#player1_points,
+#player2_heighest,
+#player2_points {
+    color: blue;
+    padding: 20px;
+    display: inline;
+}
+#both_p1p2{
+    display: flex;
+    justify-content: center;
+}
+#res{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 85.8%;
+    border: 2px solid yellow;
+    color: blue;
+    margin: auto;
+}
+#decide_winner{
+    display: flex;
+    justify-content: center;
+    color: red;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+}

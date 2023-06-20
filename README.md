@@ -1,4 +1,5 @@
 # Flip n' Win
+Flip the cards and let the luck decides who wins among two players.
 In this project i have used HTML,CSS,JS as FrontEnd and JAVA as BackEnd and connected them through JSON file.
 
 
